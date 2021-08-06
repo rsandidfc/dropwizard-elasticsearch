@@ -19,7 +19,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
  * @see <a href="http://www.elasticsearch.org/guide/reference/api/admin-indices-stats/">Admin Indices Stats</a>
  */
 public class EsIndexDocsHealthCheck extends HealthCheck {
-    private static final String HEALTH_CHECK_NAME = "elasticsearch-index-documents";
+    //private static final String HEALTH_CHECK_NAME = "elasticsearch-index-documents";
     private static final long DEFAULT_DOCUMENT_THRESHOLD = 1L;
     private final Client client;
     private final String[] indices;
